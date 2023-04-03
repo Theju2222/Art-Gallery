@@ -1,0 +1,94 @@
+
+
+.carousel-indicators>button{
+
+    background-color: white !important ;
+}
+
+.text {
+    position: relative;
+    bottom: 1vw;
+}
+.text-banner{
+    position: relative;
+}
+ .text-banner>div>div{
+    
+   height: 100%;
+   margin: 0 !important;
+    padding :2rem 4rem ; 
+   position :absolute ;
+   left:10%;
+
+   z-index: 1;
+   display: none;
+   flex-direction: column;
+   justify-content:center;
+  
+}
+.bannerbg2>div>h2{
+    margin-bottom:2rem;
+}
+.bannerbg2>div>p{
+    max-width:600px;
+    margin-bottom:2rem;
+    overflow-y: hidden;
+    max-height: 50px;
+    font-size: 12px;
+}
+.bannerbg2>div>*{
+   color:white;
+}
+
+
+.bannerbg2{
+
+}
+
+.text-banner:hover .bannerbg2>div{
+   display:flex;
+}
+.text-banner:hover .bannerbg2{
+    transition: all 0.2s ease-in-out;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    /* max-width:250px; */
+    /* max-height:250px; */
+    margin: 0 auto;
+   
+    background-color: #00000069;
+    border-radius: 8px;
+}
+
+
+@media screen and (max-width:600px) {
+    .bannerbg2>div>h2{
+        margin-bottom:0.5rem;
+        font-size: 1.2rem;
+    }
+    .text-banner>div{
+     
+      
+    }
+    .bannerbg2>div>p{
+        max-width:400px;
+        font-size: 0.8rem;
+        margin-bottom:0.2rem;
+        overflow: hidden;
+        
+        height: 40px;
+    }
+    .text-banner>div>div{
+    
+         padding :1rem 1rem ; 
+       
+       
+     }
+     #banner{
+        height:50dvh !important
+     }
+}

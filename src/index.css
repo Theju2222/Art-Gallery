@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  #loadingSpin{
+    Animation:ani 0.5s linear infinite;
+    width:50px;
+    height:50px;
+    background:#6dcccc;
+    border-radius:50%;
+    position:absolute;
+    margin: 0 auto ;
+    z-index: 111111;
+    overflow: hidden;
+    
+    }
+  @keyframes ani{
+    0%{transform:scale(0);
+      opacity: 0;
+    }
+    100%{
+      transform:scale(1.5);
+      opacity: 1;
+    }
+  }
+ #black-bg{
+  width: 100%;
+  /* background: black; */
+  /* opacity: 0.3; */
+  background: #0007;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom:0;
+  z-index: 11111;
+ }
+
+ .whatapp-float{
+  position: fixed;
+  z-index: 11;
+  bottom: 45px;
+  right: 25px;
+ }
+ .whatapp-float>a{
+  width: 60px;
+  height: 60px;
+  display: block;
+  background: #25d366;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 3px #999;
+ }
+ .whatapp-float .bi{
+ font-size: 28px !important;
+ }
