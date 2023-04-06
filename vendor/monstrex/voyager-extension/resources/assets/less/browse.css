@@ -1,0 +1,404 @@
+/* VOYAGER RESETS */
+.vext-browse .table {
+    color: #111;
+}
+
+.tt {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.vext-browse table.dataTable tbody td, table.dataTable tbody th {
+  padding: 0;
+}
+
+.vext-browse .table>thead>tr>td,
+.vext-browse .table>thead>tr>th {
+   padding: 0;
+   line-height: normal;
+   vertical-align: middle;
+   border-top: none;
+}
+.vext-browse table.dataTable thead>tr>th {
+     padding-left: 10px;
+     padding-right: 20px;
+}
+.vext-browse .table>thead>tr>th {
+    padding: 7px 20px 7px 10px;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.vext-browse .table>tbody>tr>td {
+    padding: 5px 20px 5px 10px;
+    vertical-align: middle;
+}
+
+.vext-browse .table>thead>tr>th.sorting,
+.vext-browse .table>thead>tr>th.actions {
+    background: #efefef;
+}
+
+.vext-browse  table.dataTable thead th.sorting:after,
+.vext-browse  table.dataTable thead th.sorting_desc:after,
+.vext-browse  table.dataTable thead th.sorting_asc:after {
+  text-transform: none;
+}
+
+.vext-browse .table>tbody tr.even {
+  background: #eef3f9;
+}
+.vext-browse .table>tbody tr[role='row'] {
+  color: #4a4a4a;
+}
+
+
+
+/* Actions buttons  */
+.vext-browse #bread-actions .delete,
+.vext-browse #bread-actions .edit,
+.vext-browse #bread-actions .restore {
+    margin-left: 0;
+}
+
+
+.vext-browse .th.actions {
+    min-width: 160px;
+}
+.vext-browse #bread-actions .btn {
+    padding: 0 8px;
+}
+.vext-browse #bread-actions a span {
+    display: none;
+}
+.vext-browse #bread-actions a.btn-sm {
+    background: none;
+}
+
+.vext-browse #dataTable #bread-actions a,
+.vext-browse .actions a.btn,
+.vext-browse .tree-items-list #bread-actions a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #adadad;
+    transition: all .4s ease;
+}
+
+.vext-browse #bread-actions a.btn-sm.btn-danger:hover i {
+    color: #FF1100;
+}
+.vext-browse #bread-actions a.btn-sm.btn-primary:hover i {
+    color: #419eff;
+}
+.vext-browse #bread-actions a.btn-sm.btn-warning:hover i {
+    color: #dbae3a;
+}
+.vext-browse #bread-actions a.btn-sm.btn-success:hover i {
+    color: #28b066;
+}
+
+
+
+
+
+
+
+
+/* FIXES */
+.vext-browse  table.dataTable thead th.right,
+.vext-browse  table.dataTable thead th.right div {
+    text-align: right;
+}
+.vext-browse  .table>tbody>tr>td.right {
+    text-align: right;
+}
+
+.vext-browse  .table>tbody>tr {
+    transition: all .4s ease;
+}
+.vext-browse  .table>tbody>tr.unpublished-record {
+    opacity: 0.5;
+}
+
+/* TREE */
+.vext-browse .tree-items-list .dd-collapsed .dd-collapse {
+    display: none;
+}
+.vext-browse .tree-items-list .dd-expand {
+    display: none !important;
+}
+.vext-browse .tree-items-list .dd-collapsed .dd-expand {
+    display: block !important;
+}
+.vext-browse .tree-items-list .dd-handle {
+    display: block;
+    height: 42px;
+    margin: 2px 0;
+    padding: 0;
+    color: #333;
+    text-decoration: none;
+    font-weight: 700;
+    border: 1px solid #dcdcdc;
+    background: #fbfbfb;
+    border-radius: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.vext-browse .tree-items-list .dd-tree-handle {
+    position: absolute;
+    margin: 0;
+    left: 0;
+    top: 0;
+    height: 42px;
+    cursor: move;
+    width: 26px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border: 1px solid #d8d8d8;
+    background: #ddd;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.vext-browse .tree-items-list .dd-tree-move {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #efefef;
+    transition: all .4s ease;
+}
+.vext-browse .tree-items-list .dd-tree-move:hover {
+    background: #ddd;
+}
+.vext-browse .tree-items-list .dd-tree-move span {
+    background: #929292;
+    width: 10px;
+    height: 1px;
+    margin: 2px 0;
+}
+
+.vext-browse .tree-items-list #bread-actions a.btn-sm.clone {
+    margin-right: 5px;
+}
+
+.vext-browse .tree-items-list .dd-handle {
+    padding-left: 50px;
+}
+.vext-browse .tree-items-list .dd-item>button {
+    margin-left: 30px;
+}
+.vext-browse .tree-items-list .dd-item>button {
+    height: 30px;
+    width: 20px;
+}
+
+.vext-browse .tree-items-list .dd-content-holder {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.vext-browse .tree-items-list .dd-tree-placeholder {
+    border: 1px dotted #aaa;
+    border-radius: 3px;
+    background: transparent;
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    min-height: 42px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.dd-dragel .dd-content-actions {
+    display: none;
+}
+.vext-browse .dd-content-main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: calc(100% - 200px);
+}
+
+.vext-browse .dd-content-main .tree-extra-fields {
+    margin: 0 10px;
+}
+.vext-browse .dd-content-main .tree-extra-fields.right-auto {
+    margin-right: auto;
+}
+
+.vext-browse .tree-id {
+    display: inline-block;
+    min-width: 30px;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.dd-content-main .tree-title {
+    color: #616161;
+}
+.dd-content-main .tree-slug {
+    font-size: 0.8em;
+    font-weight: 400;
+    color: #3152b5;
+}
+.dd-content-main .tree-created_at {
+    font-size: 0.8em;
+    color: #7b7b7b;
+}
+
+.vext-browse .tree-items-list .unpublished-record {
+    opacity: 0.5;
+}
+
+.vext-browse td p {
+    margin-bottom: 0;
+}
+
+.region-block-badge {
+    font-weight: 400;
+}
+
+.urls-block-list ul {
+    margin: 0;
+    padding: 5px 0;
+    list-style: none;
+    font-size: 0.8em;
+}
+
+.urls-block-list.rules-a {
+    color: #ff3324;
+}
+.urls-block-list.rules-b {
+    color: #28b066;
+}
+
+
+
+.browse-filters-holder {
+    background-color: #efefef;
+    padding: 15px;
+    border-radius: 4px;
+}
+.filter-selector {
+    display: inline-flex;
+    min-width: 500px;
+    margin-right: 30px;
+    align-items: center;
+}
+.filter-selector label {
+    font-size: 11px;
+    font-weight: 600;
+    color: #2e2e2e;
+    text-transform: uppercase;
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+.filter-selector .select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #444;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.text-field-holder div {
+    width: 100%;
+}
+
+.browse-text-holder {
+    display: inline-flex;
+    width: 100%;
+    min-height: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.browse-text-holder button {
+    opacity: 0.2;
+    border: none;
+    padding: 0 3px;
+    background-color: transparent;
+}
+.text-field-holder i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.browse-text-holder:hover button {
+    opacity: 1;
+}
+.browse-inline-editor {
+    display: none;
+    width: 100%;
+}
+.browse-inline-editor button {
+    border: none;
+    background-color: transparent;
+    padding: 0 3px;
+}
+.text-inline-save i {
+    color: #00a142;
+}
+.text-inline-cancel i {
+    color: #f13024;
+}
+.text-inline-edit i {
+    margin: 3px 0 0 3px;
+    color: #3152b5;
+}
+
+.browse-inline-editor input {
+    width: 100%;
+    border: 1px solid #eee;
+}
+
+.browse-group-fields {
+    display: flex;
+}
+
+.browse-group-fields i {
+    padding: 0;
+    margin: 0;
+    width: 22px;
+    display: flex;
+    justify-content: center;
+}
+
+.browse-group-fields .voyager-check {
+    color: #00a142;
+}
+
+.browse-group-fields .voyager-dot {
+    color: #c4c4c4;
+}
+
+.group-inline-edit {
+    opacity: 0.3;
+    border: none;
+    background-color: transparent;
+    padding: 0 3px;
+}
+
+.browse-group-fields:hover .group-inline-edit {
+    opacity: 1;
+}
+
+.group-inline-edit i {
+    color: #3152b5;
+}
+
+.browse-group-fields .group-inline-form {
+    display: none;
+}
+.ZebraDialog.dialog-field-group {
+    width: 100%;
+    max-width: 700px !important;
+}

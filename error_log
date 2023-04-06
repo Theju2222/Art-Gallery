@@ -1,0 +1,8 @@
+[21-Feb-2023 15:22:13 Asia/Kolkata] PHP Warning:  require(/home3/shopndto/public_html/art_gallery/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/shopndto/public_html/art_gallery/index.php on line 34
+[21-Feb-2023 15:22:13 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/shopndto/public_html/art_gallery/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/shopndto/public_html/art_gallery/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/shopndto/public_html/art_gallery/index.php on line 34
+[14-Mar-2023 13:09:42 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 106075841 bytes) in /home3/shopndto/public_html/art_gallery/vendor/intervention/image/src/Intervention/Image/Gd/Commands/ResizeCommand.php on line 58
+[14-Mar-2023 13:10:05 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 106075841 bytes) in /home3/shopndto/public_html/art_gallery/vendor/intervention/image/src/Intervention/Image/Gd/Commands/ResizeCommand.php on line 58
+[16-Mar-2023 05:53:05 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 94786561 bytes) in /home3/shopndto/public_html/art_gallery/vendor/intervention/image/src/Intervention/Image/Gd/Commands/ResizeCommand.php on line 58

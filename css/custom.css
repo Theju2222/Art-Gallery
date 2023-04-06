@@ -1,0 +1,229 @@
+.app-container{
+    background:#000;
+}
+
+.app-container *{
+    color: #fff !important;
+}
+.form-control{
+    background: transparent !important;
+}
+.navbar-default{
+    background: #000 !important;
+   
+}
+.navbar-top{
+    box-shadow: 0 3px 10px rgb(255 255 255 / 20%) !important;
+}
+
+.voyager .panel{
+    background: #000 !important;
+    box-shadow: 0 3px 10px rgb(255 255 255 / 20%);
+}
+.tab-pane{
+    background:#000;
+}
+
+.breadcrumb {
+    background:transparent;
+}
+
+.breadcrumb li{
+    color:#fff !important;
+}
+
+.side-menu{
+  background: #000;
+}
+
+.select2-selection__rendered{
+    background: transparent !important;
+}
+
+.select2-results__option{
+    background: #000;
+    color:#fff;
+}
+
+.select2-container--default .select2-results__option[aria-selected=true] {
+    background-color: rgba(90, 88, 88, 0.993);
+    color:#fff;
+}
+
+.select2-search--dropdown{
+    background: #000 !important;
+}
+
+.select2-search__field{
+    background: #000;
+    color:#fff;
+}
+
+.select2-container--default.select2-container--open.select2-container--above .select2-selection--single{
+    background:#000;
+    color:#fff;
+}
+
+.panel-body .select2-selection {
+  background: #000 !important;
+}
+
+.voyager input[type=file]{
+    background: #000;
+}
+
+.voyager input[type=file]:hover{
+    background: #333;
+}
+
+.float-action-panel.locked{
+    background: #000;
+}
+
+.table>thead>tr>th.sorting, .vext-browse .table>thead>tr>th.actions {
+    background:#000 !important;
+}
+.voyager .table>thead>tr>th{
+    background:#000;
+}
+tr.odd{
+    background: #272727 !important;
+}
+
+tr.even{
+    background: #000 !important;
+}
+.panel-footer {
+    background: #000;
+}
+.admin-menu-title{
+    background:#000;
+}
+.admin-menu-title:hover{
+    background: #333;
+}
+.modal-body, .modal-footer{
+    background: #000 !important;
+}
+.relationship_table_select{
+  background: #000 !important;
+}
+.select2-selection.select2-selection--single{
+    background:#000;
+}
+.voyager .modal.modal-relationships :not(.toggle-group)>label:first-child{
+    background:#000;
+}
+.voyager .modal.modal-relationships .relationship_details_more :not(.toggle-group)>label{
+    background:#000;
+}
+.row-dd-relationship .relationship_details_content>label:first-child {
+    background: #000;
+}
+.voyager .btn.btn-default,.voyager .btn.btn-default:hover{
+    background:#1d8bc7;
+}
+
+.side-menu{
+  background: #000 !important;
+  box-shadow: 0;
+}
+
+.voyager .navbar .navbar-nav .dropdown-menu, .voyager .navbar.navbar-default .navbar-nav .dropdown-menu{
+    background: #000 !important;
+    box-shadow: 0 3px 10px rgb(255 255 255 / 20%);
+} 
+
+.voyager .settings .nav-tabs a{
+    background: #000;
+}
+
+.voyager .table.table-striped>tbody>tr:nth-of-type(odd){
+    background: #000 !important;
+}
+
+.database-tables tr .btn-default:hover, .database-tables tr .btn-default{
+    background:#1f96d8;
+    border:1px solid #1f96d8;
+}
+
+#fonts input{
+    background:#000;
+}
+.collapse.in, .collapse-head{
+    background:#000;
+}
+
+#gradient_bg::after {
+   
+    background: linear-gradient(to bottom, rgba(0,0,0,0.93) 0%,rgba(0,0,0,1) 80%,rgba(0,0,0,1) 100%);
+   
+}
+
+.voyager .compass .nav-tabs a, .voyager .compass .nav-tabs > li > a:hover, .voyager .compass .nav-tabs > li > a:focus{
+    background: #000 !important;
+}
+
+.nav-tabs > li.active > a{
+    background: #333 !important;
+}
+
+#logs .list-group-item.llv-active{
+    background: #000;
+}
+
+#commands code{
+    background: #000;
+}
+
+.ace_gutter-layer {
+    background:#333;
+}
+.ace_content {
+   background: #000;
+}
+.ace-github .ace_marker-layer .ace_active-line {
+   
+    background: #333 !important;
+}
+.bread-extra-details .bread-list-collapse {
+   
+    background: #6e6c6c!important;
+    
+}
+.fake-table-hd.row>[class*=col-] {
+    margin-bottom: 25px;
+    background: #000;
+}
+.row-dd:hover {
+    background-color: #333;
+}
+#bread-items .bread-list-col select {
+    background-color: #000 !important;
+   
+}
+.row-dd-relationship .voyager-relationship-details-btn, .row-dd-relationship .voyager-relationship-details-btn:hover{
+    background:#000;
+  
+}
+.row-dd-relationship i.voyager-heart {
+    background: #000;
+}
+.row-dd-relationship .voyager-relationship-details {
+    background: #000;
+}
+.row-dd-relationship .relationship_details_content p.relationship_table_select {
+    background: #333;
+}  
+option{
+    background:#000;
+}
+optgroup{
+    background:#000;
+}
+.paginate_button a{
+    background:#000 !important;
+}
+.browse-inline-editor input{
+    background: #000;
+}

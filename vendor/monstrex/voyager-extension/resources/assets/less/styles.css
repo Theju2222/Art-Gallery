@@ -1,0 +1,351 @@
+/* JS PLUGINS FIXES */
+.app-container .content-container .side-menu {
+    top: 0;
+}
+.CodeMirror {
+    padding: 0;
+    height: auto;
+}
+.CodeMirror, .CodeMirror-scroll {
+    min-height: 100px;
+    max-height: 400px;
+}
+
+/* W-MODAL */
+.ZebraDialog_Spinner {
+    background: url('voyager-extension-assets?path=js/zebra_dialog/themes/flat/spinner.gif') center center no-repeat;
+    height: 32px
+}
+
+.ZebraDialog_Warning .ZebraDialog_Body {
+    background-image: url('voyager-extension-assets?path=js/zebra_dialog/themes/flat/warning.png');
+}
+.ZebraDialogBackdrop {
+    z-index: 90000;
+    background: #000;
+}
+
+.ZebraDialog {
+    z-index: 90001;
+    border-radius: 4px;
+}
+.ZebraDialog .ZebraDialog_Title {
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.ZebraDialog_Buttons {
+    background: #f1f1f1;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.ZebraDialog_Buttons a {
+    transition: all .4s ease;
+}
+.ZebraDialog_Buttons a:hover {
+    filter: brightness(120%);
+}
+.ZebraDialog_Buttons a {
+    background: #22a7f0;
+    color: #fff;
+    font-weight: 400;
+    padding: 5px 15px;
+    border-radius: 3px;
+    transition: all .4s ease;
+}
+.ZebraDialog_Body {
+    padding: 10px 10px 5px;
+}
+
+/* Z-Dialog WARNING */
+.ZebraDialog.vext-dialog-warning {
+    min-width: 330px;
+    background: #d44444;
+    border: none;
+    color: #fefefe;
+}
+.ZebraDialog.vext-dialog-warning .ZebraDialog_Close {
+    color: #f3f2f2;
+}
+.ZebraDialog.vext-dialog-warning .ZebraDialog_Title {
+    border-bottom: none;
+    color: #f9f9f9;
+}
+.ZebraDialog.vext-dialog-warning .ZebraDialog_Body {
+    display: flex;
+    color: #ffea54;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 10px 30px;
+}
+.ZebraDialog.vext-dialog-warning .ZebraDialog_Buttons a {
+    padding: 7px 15px;
+}
+.ZebraDialog.vext-dialog-warning .ZebraDialog_Buttons {
+    background: #e6e6e6;
+}
+.ZebraDialog.vext-dialog-warning .ZebraDialog_Button_0 {
+    background: #d44444;
+}
+.ZebraDialog.vext-dialog-warning .ZebraDialog_Button_1 {
+    background: #d2d2d2;
+    color: #333;
+}
+.ZebraDialog.vext-dialog-warning .dialog-file-name {
+    color: #ddd;
+}
+
+/* Z-Dialog REQUEST */
+.ZebraDialog.vext-dialog-request {
+    min-width: 330px;
+    background: #e08702;
+    border: none;
+    color: #fefefe;
+}
+.ZebraDialog.vext-dialog-request .ZebraDialog_Close {
+    color: #f3f2f2;
+}
+.ZebraDialog.vext-dialog-request .ZebraDialog_Title {
+    border-bottom: none;
+    color: #f9f9f9;
+}
+.ZebraDialog.vext-dialog-request .ZebraDialog_Body {
+    display: flex;
+    color: #eee;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 10px 30px;
+}
+.ZebraDialog.vext-dialog-request .ZebraDialog_Buttons a {
+    padding: 7px 15px;
+}
+.ZebraDialog.vext-dialog-request .ZebraDialog_Buttons {
+    background: #e6e6e6;
+}
+.ZebraDialog.vext-dialog-request .ZebraDialog_Button_0 {
+    background: #e08702;
+}
+.ZebraDialog.vext-dialog-request .ZebraDialog_Button_1 {
+    background: #d2d2d2;
+    color: #333;
+}
+.ZebraDialog.vext-dialog-request .dialog-file-name {
+    color: #ddd;
+}
+
+/* MODAL FORM */
+.w-modal-form {
+    position: relative;
+}
+.w-modal-form-group {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+    min-width: 300px;
+}
+.w-modal-form-group label {
+    display: block;
+    font-weight: 400;
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 5px;
+}
+.w-modal-form-control {
+    display: block;
+    color: #76838f;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #e4eaec;
+    border-radius: 3px;
+    height: 28px;
+    padding: 3px 10px;
+    width: calc(100% - 22px);
+    font-size: 14px;
+    line-height: 1.4em;
+}
+textarea.w-modal-form-control {
+    height: auto;
+}
+
+
+/* CHANGE IMAGE FORM */
+.change-file-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+.change-file-holder img {
+    padding: 3px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    max-width: 150px;
+    width: 100%;
+    height: auto;
+}
+#change-file-form input[type=file] {
+    max-width: 200px;
+}
+
+
+/* SETTINGS */
+.voyager .page-title.code-editor strong {
+    color: #e21d1d;
+}
+
+.voyager .code h3 {
+    display: flex;
+    line-height: 20px;
+    background: #62a8ea;
+    color: #fefefe;
+    padding: 10px 20px;
+}
+.voyager .code h3 i {
+    display: inline-block;
+    font-size: 20px;
+}
+.voyager .code h3 span {
+    display: inline-block;
+    font-size: 20px;
+    margin-left:10px;
+}
+
+.voyager .code input,
+.voyager .code .select2 {
+    max-width: 600px;
+}
+.voyager .code .select2 {
+    display: block;
+}
+.voyager .code input[type="number"] {
+    max-width: 100px;
+}
+
+.page-title{
+    height:85px;
+    z-index:2;
+    position:relative;
+}
+
+.page-content{
+    z-index:2;
+    position:relative;
+}
+
+.page-title p{
+    height: 20px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    position: relative;
+    top: -10px;
+}
+
+.page-title span{
+    font-size: 10px;
+    font-weight: normal;
+    top: -12px;
+    position: relative;
+}
+
+span.config-help {
+    color: #2a8dea;
+    font-size: 12px;
+}
+span.config-help i {
+    font-style: normal;
+    color: #e01313;
+}
+
+.form-control,
+.panel-body .select2-selection {
+    color: #67636f;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #dadcde;
+}
+
+a.btn-setting-route {
+    padding: 10px 20px;
+    display: inline-flex;
+    align-items: center;
+}
+.btn-setting-route i {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.send-test-mail-success {
+    color: #19a243;
+    font-weight: 400;
+}
+.send-test-mail-error {
+    color: #ff3324;
+    font-weight: 400;
+}
+
+.dd-item.unpublished-record {
+    opacity: 0.6;
+}
+.admin-menu-title {
+    padding-left: 35px;
+}
+.dd-admin-checkbox {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+.float-action-panel {
+    display: flex;
+    position: fixed;
+    justify-content: flex-end;
+    width: 100%;
+    right: 0;
+    bottom: -40px;
+    background: #ffffffc2;
+    border-top-left-radius: 3px;
+    padding: 7px 7px 7px 4px;
+    -webkit-box-shadow: 0 0 14px 0 rgba(0,0,0,0.17);
+    box-shadow: 0 0 14px 0 rgba(0,0,0,0.17);
+    transition: all .2s ease;
+    z-index: 10;
+}
+
+.float-action-panel.locked {
+    bottom: 0;
+}
+
+.float-action-handle {
+    display: flex;
+    align-items: center;
+    padding-right: 3px;
+}
+.float-action-panel .btn {
+    margin: 0;
+}
+.float-action-panel .btn-new-relationship,
+.float-action-panel .btn-success {
+    margin-right: 5px;
+}
+.float-action-panel .btn-new-relationship i {
+    margin-right: 5px;
+}
+
+/*Fix to remove overlay in Media manager */
+.modal-backdrop.fade.in {
+    display: none;
+}
+
+/* Autocomplete field */
+.autocomplete-suggestions { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; border: 1px solid #999; background: #FFF; cursor: default; overflow: auto; -webkit-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); -moz-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-no-suggestion { padding: 2px 5px;}
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: bold; color: #000; }
+.autocomplete-group { padding: 2px 5px; font-weight: bold; font-size: 16px; color: #000; display: block; border-bottom: 1px solid #000; }
+
+/* Fix for Page Layout Select field */
+.adv-page-layout-wrapper .select2-container {
+    max-width: calc(100% - 75px) !important;
+}
